@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "thaicucmod:item/thai_cuc_sword"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "thaicucmod",
+  "version": "${version}",
+  "name": "Thai Cuc Mod",
+  "description": "Legendary Yin Yang Sword mod",
+  "authors": ["MinhPhong"],
+  "contact": {
+    "homepage": "https://github.com/nguyenhuyhai19890-prog/thaicucmod"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.minhphong.thaicucmod.ThaicucmodMod"],
+    "client": ["com.minhphong.thaicucmod.client.ThaicucmodClient"]
+  },
+  "mixins": ["thaicucmod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  }
+}

@@ -1,0 +1,15 @@
+.gradle/
+build/
+*.jar
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.env
+.DS_Store
+.minecraft/
+run/
+eclipse/
+bin/
+libs/
